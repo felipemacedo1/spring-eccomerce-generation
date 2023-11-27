@@ -63,25 +63,23 @@ public abstract class Suplementos {//Classe abstrata
 	
 	
 	//Metodos vizualizar
-        public void visualizar() {
-            String tipo = "";
-            switch(this.tipo) {
+    protected String getTipoString() {
+        switch (this.tipo) {
             case 1:
-                tipo = "Whay";
-                break;
-            case 2: 
-                tipo = "creatina";
-                break;
+                return "Whay";
+            case 2:
+                return "Creatina";
             default:
-
-            }
-
-            System.out.println("ID do produto: " + this.getId());
-            System.out.println("Nome do produto: "+this.getProdutoNome());
-            System.out.println("Tipo do produto: "+tipo);
-            System.out.println("Preço do produto: "+this.getProdutopreco());
+                return "Tipo desconhecido";
         }
-        
+    }
+
+    public void visualizar() {
+        System.out.println("ID do produto: " + this.getId());
+        System.out.println("Nome do produto: " + this.getProdutoNome());
+        System.out.println("Tipo do produto: " + this.getTipoString());
+        System.out.println("Preço do produto: " + this.getProdutopreco());
+    }
 }
 	
 
