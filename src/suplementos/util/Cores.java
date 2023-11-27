@@ -1,4 +1,4 @@
-package com.util;
+package suplementos.util;
 
 public class Cores {
 	

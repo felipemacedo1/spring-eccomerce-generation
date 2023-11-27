@@ -1,6 +1,6 @@
 package suplementos.repository;
 
-import ecommerce.model.Suplementos;
+import suplementos.model.Suplementos;
 
 public interface SuplementosRepository {
 	

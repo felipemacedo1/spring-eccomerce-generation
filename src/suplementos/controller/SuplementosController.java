@@ -1,4 +1,4 @@
-package ecommerce.controller;
+package suplementos.controller;
 
 public class SuplementosController {
 
