@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 import com.util.Cores;
 
-//import conta.util.Cores;
+import ecommerce.model.Creatina;
+import ecommerce.model.WheyProtein;
+
+import com.util.Cores;
 
 public class Menu {
 
@@ -13,16 +16,28 @@ public class Menu {
 		Scanner leia = new Scanner(System.in);
 		int option;
 		
+		// Teste da Classe WHEY PROTEIN (int id , String nomeProduto, float produtopreco, float peso)
+				WheyProtein wh1 = new WheyProtein(123,"MAX TITANIUM",158,10);
+				wh1.visualizar();
+				wh1.getProdutopreco();
+				wh1.visualizar();
+				wh1.getPeso();
+				wh1.visualizar();
 		
-		
-		
+				// Teste da Classe CREATIN (int id , String nomeProduto, float produtopreco, float peso)
+				WheyProtein cr1 = new WheyProtein(123,"MAX TITANIUM",158,10);
+				cr1.visualizar();
+				cr1.getProdutopreco();
+				cr1.visualizar();
+				cr1.getPeso();
+				cr1.visualizar();
 		
 		
 		
 		
 		while (true) {
 			
-			System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND
+			System.out.println(Cores.TEXT_BLUE + Cores.ANSI_BLACK_BACKGROUND
 							 + "************************************************************************");
 			System.out.println("                                                                       *");
 			System.out.println("                      Macedo Suplementos                               *");
@@ -37,7 +52,7 @@ public class Menu {
 			System.out.println("                                                                       *");
 			System.out.println("        0 - Sair                                                       *");
 			System.out.println("                                                                       *");
-			System.out.println("************************************************************************");
+			System.out.println("**********************?*************************************************");
 			System.out.println("Entre com a opção desejada:                                            *");
 			option = leia.nextInt();
 			System.out.println("                                                                       *"+ Cores.TEXT_RESET);
