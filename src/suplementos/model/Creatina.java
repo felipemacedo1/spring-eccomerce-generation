@@ -1,4 +1,4 @@
-package ecommerce.model;
+package suplementos.model;
 
 public class Creatina extends Suplementos {
 

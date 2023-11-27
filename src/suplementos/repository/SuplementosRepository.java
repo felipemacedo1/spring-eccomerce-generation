@@ -1,31 +1,20 @@
 package suplementos.repository;
 
-import ecommerce.model.Suplementos;
+import suplementos.model.Suplementos;
 
 public interface SuplementosRepository {
 	
 	//CRUD da conta
+	public void cadastrarProdutos();
+	public void listarProdutos();
 	public void procurarPorID();
+	public void removerProduto();
+	
+	// Métodos estoque
+	public void removerItem(int id, int valor);
+	public void adicionarProdutos(int id, int quantidade);
 	
 	
+	 
 	
-	
-	
-	
-	
-	
-	/*
-	// CRUD da Conta
-		public void procurarPorNumero(int numero);
-		public void listarTodas();
-		public void cadastrar(Conta conta);
-		public void atualizar(Conta conta);
-		public void deletar(int numero);
-		
-		// Métodos bancários
-		public void sacar(int numero, float valor);
-		public void depositar(int numero, float valor);
-		public void transferir(int numeroOrigem, int numeroDestino, float valor);
-		
-		*/
 }

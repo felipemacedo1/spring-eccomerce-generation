@@ -1,4 +1,4 @@
-package ecommerce.model;
+package suplementos.model;
 
 public abstract class Suplementos {//Classe abstrata
 

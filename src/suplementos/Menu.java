@@ -1,13 +1,10 @@
-package projeto_final_bloco_01;
+package suplementos;
 
 import java.util.Scanner;
 
-import com.util.Cores;
-
-import ecommerce.model.Creatina;
-import ecommerce.model.WheyProtein;
-
-import com.util.Cores;
+import suplementos.model.Creatina;
+import suplementos.model.WheyProtein;
+import suplementos.util.Cores;
 
 public class Menu {
 
@@ -31,7 +28,7 @@ public class Menu {
 				cr1.visualizar();
 				cr1.getPeso();
 				cr1.visualizar();
-		
+				System.out.println("\n                                                                       *");
 		
 		
 		
