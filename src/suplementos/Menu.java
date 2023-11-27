@@ -1,8 +1,8 @@
-package ecommerce;
+package suplementos;
 
 import java.util.Scanner;
 
-import com.util.Cores;
+import suplementos.util.Cores;
 
 //import conta.util.Cores;
 
